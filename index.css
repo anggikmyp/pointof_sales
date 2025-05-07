@@ -1,0 +1,58 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body dengan background gradient */
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container login */
+form {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Judul */
+h1 {
+  position: absolute;
+  top: 10%;
+  color: white;
+  font-size: 2.5em;
+}
+
+/* Input dan button */
+input.login, button.login {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input.login {
+  background-color: #f2f2f2;
+}
+
+button.login {
+  background-color: #2575fc;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button.login:hover {
+  background-color: #1a5edb;
+}

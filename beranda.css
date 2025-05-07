@@ -1,0 +1,11 @@
+.sidebar{
+  background-color: rgba(9, 179, 9, 0.39);
+  width: 200px;
+  height: 900px;
+  padding: 10px;
+  border-top-right-radius: 50px;
+}
+
+.btn-produk{
+  border-radius: 10px;
+}
