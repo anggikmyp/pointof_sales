@@ -9,7 +9,7 @@
 /* Body dengan background gradient */
 body {
   height: 100vh;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+  background: linear-gradient(to right, #11cbc2, #2575fc);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,12 +47,12 @@ input.login {
 }
 
 button.login {
-  background-color: #2575fc;
+  background-color: #11cbc2;
   color: white;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 button.login:hover {
-  background-color: #1a5edb;
+  background-color: #1a5edb, #2575fc;
 }

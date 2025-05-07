@@ -21,6 +21,8 @@ if (isset($_GET['tanggal'])) {
 <html>
 <head>
     <title>Laporan Penjualan</title>
+    <link rel="stylesheet" type="text/css" href="css/laporan_penjualan.css">
+
 </head>
 <body>
     <h2>Laporan Penjualan</h2>
